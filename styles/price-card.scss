@@ -1,0 +1,100 @@
+.price-card {
+    width: 380px;
+    padding-top: 33px;
+    background: $color-grey;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    overflow: hidden;
+
+    &__name {
+        position: relative;
+        height: 64px;
+        margin-bottom: 33px;
+    }
+
+    &__title {
+        font-size: 35px;
+        line-height: 43px;
+        font-weight: $weight-bold;
+        text-align: center;
+    }
+
+    &__subtitle {
+        bottom: 0;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: $weight-light;
+        text-align: center;
+    }
+
+    &__caption_hidden {
+        position: absolute;
+        top: -3px;
+        right: -31px;
+        display: none;
+        width: 147.08px;
+        height: 25.01px;
+        font-size: 14px;
+        line-height: 25.01px;
+
+        font-weight: $weight-bold;
+        text-align: center;
+        background-color: $color-red;
+        transform: rotate(45deg);
+    }
+
+    &__price {
+        height: 105px;
+        font-size: 55px;
+        line-height: 105px;
+        font-weight: $weight-bold;
+        text-align: center;
+        background-color: $color-green;
+    }
+
+    &__text {
+        padding: 40px 26.51px 40px 26px;
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: $weight-light;
+        text-align: center;
+    }
+
+    &__options-list {
+    }
+
+    &__icon {
+        display: inline-block;
+        width: 15px;
+        height: 13px;
+        margin: 0 22px;
+        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+    }
+
+    &__list {
+        height: 50px;
+        font-size: 15px;
+        line-height: 50px;
+        font-weight: $weight-light;
+    }
+    &__list:nth-child(odd) {
+        background-color: $color-dark-grey;
+    }
+    &__btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__button {
+        width: 155px;
+        height: 40px;
+        margin: 39px 0 40px 0;
+        font-size: 14px;
+        line-height: 17px;
+        color: $text-color-white;
+        background-color: $color-green;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        cursor: pointer;
+    }
+}
