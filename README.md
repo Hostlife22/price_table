@@ -5,8 +5,8 @@
 Working with duplicate components
 
 <kbd>
-  <img align="right" alt="img" src="Mei6smr.jpeg"  />
- </kbd>
+  <img align="right" alt="img" src="jQCF8Ii.jpeg"  />
+</kbd>
 
 ### The tech stack is:
 
